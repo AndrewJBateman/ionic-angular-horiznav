@@ -20,6 +20,7 @@ export class ScreensizeService {
   }
 
   isDesktopView(): Observable<boolean> {
+    console.log('state of isDesktop boolean is:', this.isDesktop.value);
     return this.isDesktop.asObservable().pipe(distinctUntilChanged());
   }
 }
