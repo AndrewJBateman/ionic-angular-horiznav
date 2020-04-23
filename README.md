@@ -1,6 +1,6 @@
 # :zap: Ionic Horizontal Navigation
 
-Ionic-Angular tutorial app to switch from tabs to top nav bar as screen size increases.
+* Ionic-Angular tutorial app to switch from tabs to top nav bar as screen size increases.
 
 ## :page_facing_up: Table of contents
 
@@ -30,8 +30,8 @@ Note: screen reloads when going from PC to phone size - due to an issue with the
 ## :signal_strength: Technologies
 
 * [Ionic v5](https://ionicframework.com/)
-* [Angular v8](https://angular.io/)
-* [Ionic/angular v4](https://www.npmjs.com/package/@ionic/angular) including [ion-nav-link](https://ionicframework.com/docs/api/nav-link)
+* [Angular v9](https://angular.io/)
+* [Ionic/angular v5](https://www.npmjs.com/package/@ionic/angular) including [ion-nav-link](https://ionicframework.com/docs/api/nav-link)
 
 ## :floppy_disk: Setup
 
@@ -39,7 +39,7 @@ Note: screen reloads when going from PC to phone size - due to an issue with the
 
 ## :computer: Code Examples
 
-* servicet to change state of an observable when screen size hits a breakpoint of 568px.
+* service to change state of an observable when screen size hits a breakpoint of 568px.
 
 ```typescript
 export class ScreensizeService {
