@@ -3,24 +3,23 @@ import { Observable, BehaviorSubject } from 'rxjs';
 import { distinctUntilChanged } from 'rxjs/operators';
 
 @Injectable({
-  providedIn: 'root'
+	providedIn: 'root',
 })
 export class ScreensizeService {
+	private isDesktop = new BehaviorSubject<boolean>(false);
 
-  private isDesktop = new BehaviorSubject<boolean>(false);
+	constructor() {}
 
-  constructor() { }
+	onResize(size: number) {
+		if (size < 568) {
+			this.isDesktop.next(false);
+		} else {
+			this.isDesktop.next(true);
+		}
+	}
 
-  onResize(size: number) {
-    if (size < 568) {
-      this.isDesktop.next(false);
-    } else {
-      this.isDesktop.next(true);
-    }
-  }
-
-  isDesktopView(): Observable<boolean> {
-    console.log('state of isDesktop boolean is:', this.isDesktop.value);
-    return this.isDesktop.asObservable().pipe(distinctUntilChanged());
-  }
+	isDesktopView(): Observable<boolean> {
+		console.log('state of isDesktop boolean is:', this.isDesktop.value);
+		return this.isDesktop.asObservable().pipe(distinctUntilChanged());
+	}
 }

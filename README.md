@@ -1,6 +1,7 @@
 # :zap: Ionic Horizontal Navigation
 
-* Ionic-Angular tutorial app to switch from tabs to top nav bar as screen size increases.
+* Ionic-Angular tutorial app to switch from tabs to top nav bar as screen size increases
+* Tutorial code from [Simon Grimm at Devdactic](https://devdactic.com/) - see [:clap: Inspiration](#clap-inspiration) below
 
 ## :page_facing_up: Table of contents
 
@@ -19,8 +20,7 @@
 ## :books: General info
 
 * Uses a simple screensize service with a BehaviourSubject that is used in app.component and subscribed to in the tabs page. So when the screen size exceeds 568px then a boolean 'isDesktop' observable changes state. This is used in the tabs page to change the bottom tabs toolbar to a top nav bar using the Angular *ngIf="isDesktop'.
-
-Note: screen reloads when going from PC to phone size - due to an issue with the tabs routing.
+* Note: screen reloads when going from PC to phone size - due to an issue with the tabs routing.
 
 ## :camera: Screenshots
 
@@ -30,11 +30,12 @@ Note: screen reloads when going from PC to phone size - due to an issue with the
 ## :signal_strength: Technologies
 
 * [Ionic v5](https://ionicframework.com/)
-* [Angular v10](https://angular.io/)
+* [Angular v11](https://angular.io/)
 * [Ionic/angular v5](https://www.npmjs.com/package/@ionic/angular) including [ion-nav-link](https://ionicframework.com/docs/api/nav-link)
 
 ## :floppy_disk: Setup
 
+* Run `npm i` to install dependencies
 * To start the server on _localhost://8100_ type: 'ionic serve'
 
 ## :computer: Code Examples
