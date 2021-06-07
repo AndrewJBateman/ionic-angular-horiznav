@@ -2,6 +2,12 @@
 
 * Ionic-Angular tutorial app to switch from tabs to top nav bar as screen size increases
 * Tutorial code from [Simon Grimm at Devdactic](https://devdactic.com/) - see [:clap: Inspiration](#clap-inspiration) below
+* **Note:** to open web links in a new window use: _ctrl+click on link_
+
+![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/ionic-angular-horiznav?style=plastic)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/AndrewJBateman/ionic-angular-horiznav?style=plastic)
+![GitHub Repo stars](https://img.shields.io/github/stars/AndrewJBateman/ionic-angular-horiznav?style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/AndrewJBateman/ionic-angular-horiznav?style=plastic)
 
 ## :page_facing_up: Table of contents
 
@@ -15,6 +21,7 @@
   * [:cool: Features](#cool-features)
   * [:clipboard: Status & To-do list](#clipboard-status--to-do-list)
   * [:clap: Inspiration](#clap-inspiration)
+  * [:file_folder: License](#file_folder-license)
   * [:envelope: Contact](#envelope-contact)
 
 ## :books: General info
@@ -30,7 +37,7 @@
 ## :signal_strength: Technologies
 
 * [Ionic v5](https://ionicframework.com/)
-* [Angular v11](https://angular.io/)
+* [Angular v12](https://angular.io/)
 * [Ionic/angular v5](https://www.npmjs.com/package/@ionic/angular) including [ion-nav-link](https://ionicframework.com/docs/api/nav-link)
 
 ## :floppy_disk: Setup
@@ -77,6 +84,10 @@ export class ScreensizeService {
 
 * [Simon Grimm, Ionic Academy Tutorial: How to Create a Horizontal Navigation for Ionic Desktop Views](https://devdactic.com/horizontal-navigation-ionic-desktop/)
 
+## :file_folder: License
+
+* This project is licensed under the terms of the MIT license.
+
 ## :envelope: Contact
 
-* Repo created by [ABateman](https://www.andrewbateman.org) - you are welcome to [send me a message](https://andrewbateman.org/contact)
+* Repo created by [ABateman](https://github.com/AndrewJBateman), email: gomezbateman@yahoo.com
