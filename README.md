@@ -42,8 +42,8 @@
 
 ## :floppy_disk: Setup
 
-* Run `npm i` to install dependencies
-* To start the server on _localhost://8100_ type: 'ionic serve'
+* `npm i` to install dependencies
+* `ionic serve` to start the server on _localhost://8100_
 
 ## :computer: Code Examples
 
